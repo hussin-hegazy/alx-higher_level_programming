@@ -1,10 +1,8 @@
 #!/usr/bin/python3
 def multiple_returns(sentence):
     length = len(sentence)
-    char = sentence[0]
     if length == 0:
-        char = None
-        my_tuple = (length, char)
+        my_tuple = (length, sentence[0])
     else:
-        my_tuple = (length, char)
+        my_tuple = (length, sentence[0])
     return my_tuple
