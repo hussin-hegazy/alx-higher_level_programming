@@ -5,11 +5,11 @@ def add_tuple(tuple_a=(), tuple_b=()):
     return (tuple_1[0] + tuple_2[0], tuple_1[1] + tuple_2[1])
 
 
-def chaek_tuple (tuple=()):
+def chaek_tuple(tuple=()):
     len_tuple = len(tuple)
-    if len_tuple == 0 :
+    if len_tuple == 0:
         tuple = 0, 0
-    elif len_tuple == 1 :
+    elif len_tuple == 1:
         tuple = tuple[0], 0
     else:
         tuple = tuple[0], tuple[1]
