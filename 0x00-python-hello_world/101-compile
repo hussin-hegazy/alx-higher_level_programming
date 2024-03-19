@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+import os
+import py_compile
+
+# Get the Python file name from the environment variable
+pyfile = os.getenv('PYFILE')
+
+# Compile the Python file
+py_compile.compile(pyfile, cfile=pyfile + 'c')
