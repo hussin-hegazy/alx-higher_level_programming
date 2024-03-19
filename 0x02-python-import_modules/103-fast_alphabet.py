@@ -5,3 +5,4 @@ def convrter(x):
 
 rng = range(65, 91)
 print(*map(convrter, rng), sep="")
+print()
